@@ -38,3 +38,33 @@ Key features:
 [![dr20 Robot Maze Navigation Demo](https://img.youtube.com/vi/WjxOS5W1JM8/0.jpg)](https://www.youtube.com/watch?v=WjxOS5W1JM8&ab_channel=LeighClarke)
 
 *Click the image above to watch the video.*
+
+# Project 4 - Decision Tree Logic Maze Solver.
+
+This workshop focuses on programming the dr20 robot to autonomously navigate a short maze with a curvy path using a behaviour tree architecture. The dr20 robot is equipped with an advanced sensor suite, including 4 ultrasonic sensors (left and right), a front-facing laser sensor, and a front-facing camera.
+
+The goal is to interface with the provided robot API and develop code that pilots the robot out of the maze by interpreting sensor data and implementing autonomous behaviours. Since the maze exit is not explicitly defined, detecting changes in sensor readings to infer the exit is part of the challenge.
+
+Key concepts covered:
+
+- Robot control via Python and the CoppeliaSim (V-REP) simulation environment
+- Behaviour tree design and implementation for robot decision-making
+- Sensor data interpretation and obstacle avoidance strategies
+
+[![Watch the video](https://img.youtube.com/vi/DXpRNWCIFkE/maxresdefault.jpg)](https://www.youtube.com/watch?v=DXpRNWCIFkE)
+*Click the image above to watch the video.*
+
+# Project 5 - Autonomous Maze Navigation with image recognition.
+
+In this workshop, I developed code to interface with the DR20 robot within a complex maze environment simulated in CoppeliaSim (formerly V-REP). The goal was to autonomously pilot the robot through a maze featuring straight paths and signposts, utilising the robot’s sensors, including its front-facing camera. At each junction, the robot was programmed to capture photos of signposts, which will be used for future training of a neural network to improve maze-solving capabilities.
+
+Key tasks included:
+
+- Setting up the simulation environment with the 02_Maze_scene_vrep.ttt file and necessary API libraries.
+- Implementing image capture and processing routines to obtain and save camera images at maze junctions.
+- Developing autonomous robot behaviour logic based on sensor data to navigate the maze without predefined turn sequences.
+- Testing connection and communication with the simulator, handling sensor input, and managing robot motion commands.
+- This task served as a foundational exercise in robot sensing, image acquisition, and autonomous decision-making in robotics simulation.
+
+[![Robot Programming Workshop Demo](https://img.youtube.com/vi/Rev1abmeXKU/0.jpg)](https://www.youtube.com/watch?v=Rev1abmeXKU&t=22s&ab_channel=LeighClarke)
+*Click the image above to watch the video.*
