@@ -1,5 +1,6 @@
 # Robotics-Project
 5 Tasks from year 2 robotics module. Using python to control robots and learn robotic principles.
+Each task is fully working and scored 100/100.
 
 # Project 1 - Line Following Robot
 This task focused on object-oriented programming and practical robot control using the CoppeliaSim simulation environment. I developed a wrapper class for a line-tracing robot, enabling Python-based control via the CoppeliaSim API. The class was completed with methods for motor control and sensor reading, and I used this structure to design and implement a basic line-following algorithm.
@@ -7,6 +8,7 @@ This task focused on object-oriented programming and practical robot control usi
 The robot successfully navigated a predefined track by interpreting data from three vision sensors (left, middle, right). The algorithm allowed the robot to detect and follow a black line by dynamically adjusting its movement based on sensor input. This workshop reinforced core skills in robotics programming, Python OOP, and simulation-based algorithm development and testing.
 
 [![Watch the demo](https://img.youtube.com/vi/EP7bghfdNMs/0.jpg)](https://www.youtube.com/watch?v=EP7bghfdNMs)
+
 *Click the image above to watch the video.*
 
 # Project 2 - Maze Solving Robot
@@ -16,6 +18,7 @@ In this project, I developed a maze-solving robot using the CoppeliaSim environm
 A wrapper class was used to control the robot’s movement and sensor input, and the maze-solving behaviour was implemented using the Left-Hand Rule. This approach ensured the robot followed a consistent strategy to explore and reach the end of the maze efficiently. The completed implementation successfully demonstrated the robot's ability to adapt to different maze layouts and terminate correctly upon reaching the goal.
 
 [![Watch the demo](https://img.youtube.com/vi/16XntRdqn2I/0.jpg)](https://www.youtube.com/watch?v=16XntRdqn2I)
+
 *Click the image above to watch the video.*
 
 # Project 3 - Autonomous Maze Solving with 5 Sensor Inputs on the dr20 Robot 
@@ -33,4 +36,5 @@ Key features:
 - Sensor data visualization toggle for debugging
 
 [![dr20 Robot Maze Navigation Demo](https://img.youtube.com/vi/WjxOS5W1JM8/0.jpg)](https://www.youtube.com/watch?v=WjxOS5W1JM8&ab_channel=LeighClarke)
+
 *Click the image above to watch the video.*
