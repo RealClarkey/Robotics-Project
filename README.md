@@ -1,7 +1,9 @@
 # Robotics-Project
-5 Tasks from year 2 robotics module. Using python to control robots and learn robotic principles.
+This repository showcases five fully working tasks from a Year 2 robotics module, all implemented in Python using Jupyter Notebooks for development and testing. The projects focus on applying robotic principles such as sensor integration, autonomous navigation, and behaviour design within the CoppeliaSim simulation environment.
 
-Each task is fully working and scored 100/100.
+**Note:** Source code files are not publicly uploaded here to prevent unauthorized access and reduce the risk of academic dishonesty. However, I am happy to provide the source files upon request for educational or review purposes.
+
+Each task achieved a full score of 100/100.
 
 # Project 1 - Line Following Robot
 This task focused on object-oriented programming and practical robot control using the CoppeliaSim simulation environment. I developed a wrapper class for a line-tracing robot, enabling Python-based control via the CoppeliaSim API. The class was completed with methods for motor control and sensor reading, and I used this structure to design and implement a basic line-following algorithm.
@@ -68,4 +70,5 @@ Key tasks included:
 - This task served as a foundational exercise in robot sensing, image acquisition, and autonomous decision-making in robotics simulation.
 
 [![Robot Programming Workshop Demo](https://img.youtube.com/vi/Rev1abmeXKU/0.jpg)](https://www.youtube.com/watch?v=Rev1abmeXKU&t=22s&ab_channel=LeighClarke)
+
 *Click the image above to watch the video.*
